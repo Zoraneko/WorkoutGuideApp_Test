@@ -23,7 +23,16 @@
         android:layout_weight="1"
         android:orientation="vertical"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp"></LinearLayout>
+        tools:layout_editor_absoluteX="0dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+
+            android:text="Button" />
+    </LinearLayout>
 
     <EditText
         android:id="@+id/editTextText"
